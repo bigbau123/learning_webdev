@@ -1,0 +1,40 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 60%;
+    margin: 20px auto;
+    border: 20px #bdc3c7 solid;
+    padding: 0 20px;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+h4 {
+    color: #3498db;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    
+}
+
+p {
+    font-weight: 600;
+}
+
+.first {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+.hr_style {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="GET">
+        <label for="firsname">First Name:</label>
+        <input name="first_name" id="firsname" type="username" placeholder="first name" required>
+
+        <label for="lastname">Last Name:</label>
+        <input name="lastname" id="lastname" type="username" placeholder="last name" required>
+
+        <p></p>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio" value="male" required>
+
+        <label for="female">Female</label>
+        <input name="gender" id="female" type="radio" value="female">
+
+        <label for="other">Other</label>
+        <input name="gender" id="other" type="radio" value="other">
+        
+        <p></p>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="email">
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="password" minlength="5" maxlength="10">
+
+        <p></p>
+        <label for="birdthday">Birthday:</label>
+        <select name="birthday" id="birthday" required>
+            <option value="" disabled selected>month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <input type="submit">
+    </form>
+
+</body>
+</html>

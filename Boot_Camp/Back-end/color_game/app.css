@@ -1,0 +1,87 @@
+body {
+    background: #232323;
+    margin: 0;
+    font-family: 'Montserat', 'Avenir';
+}
+
+#header {
+    background: steelblue;
+    color: white;
+    font-weight: normal;
+    margin: 0px;
+    padding: 20px 0;
+    line-height: 1.1;
+    
+    text-align: center;
+}
+
+#RGB {
+    font-size: 200%;
+}
+
+#navbar {
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 30px;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    font-weight: 700;
+    transition-duration: 0.5s;
+    font-size: inherit;
+}
+
+button {
+    background: none;
+    border: none;
+    color: steelblue;
+    font-weight: 700;
+    height: 100%;
+    font-size: inherit;
+    letter-spacing: 1px;
+    -webkit-transition-duration: 0.5s;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+
+#message {
+    
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.square {
+    background: white;
+    display: block;
+    width: 30%;
+    float: left;
+    border-radius: 15%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    transition-duration: 0.5s;
+}
+
+.btn-active {
+    background-color: steelblue;
+    color: white;
+}
+
+.btn-bg-change {
+    background-color: steelblue;
+    color: white;
+}
+
+.square-true {}
+
+.square-hide {
+    display: none;
+}
+
